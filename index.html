@@ -3,7 +3,13 @@
 <style>
 *{box-sizing:border-box}body{margin:0;background:#f3f6f8;color:#203747;font:17px/1.9 Tahoma,Arial,sans-serif}main{max-width:850px;margin:auto;padding:22px}
 header{background:#18394f;color:#fff;padding:28px;border-radius:18px;margin-bottom:20px}h1{margin:0 0 8px;font-size:28px}.q{background:white;border:1px solid #dce5e9;border-radius:16px;padding:22px;margin:16px 0;box-shadow:0 4px 14px #19394f0b}.meta{color:#168787;font-size:14px}h2{font-size:19px;line-height:1.8}.opts{display:grid;gap:9px}.opt{text-align:right;font:inherit;background:#fff;border:1px solid #d6e0e5;border-radius:10px;padding:12px;cursor:pointer;color:inherit}.opt:disabled{cursor:default}.opt.good{background:#edf8f1;border:2px solid #25855b}.opt.bad{background:#fff1f0;border:2px solid #c75b57}.fb{background:#f1f7f7;border-radius:12px;padding:15px;margin-top:15px}.result{font-size:20px}.yes{color:#18734e}.no{color:#b33f3b}summary{cursor:pointer;color:#087d7d}.next{background:#18394f;color:white;border:0;border-radius:9px;padding:10px 18px;font:inherit;cursor:pointer}.end{background:#e8f2f2;padding:18px;border-radius:14px;margin:20px 0}small{color:#617582}@media print{.next{display:none}}
-html,body,main,header,p,h1,h2,article,li,details{direction:rtl;text-align:right} .opt{text-align:right} </style><main><header><h1>CIA Part 1 – Knowledge Check</h1><p>اختبر قدرتك على التمييز بين 10 مصطلحات مهنية من خلال مواقف عملية.</p><small style="color:#d3e6e9">اختبار تعليمي قصير – ليس اختبارًا رسميًا من IIA</small></header>
+html,body,main,header,p,h1,h2,article,li,details{direction:rtl;text-align:right} .opt{text-align:right} 
+.completion-notice{background:#fff;border:2px solid #168787;border-right-width:6px;border-radius:12px;padding:16px 18px;margin:0 0 18px}
+.completion-notice h2{margin:0 0 6px;color:#176b63}
+.completion-notice p{margin:0}
+.completion-notice[hidden]{display:none}
+.next:disabled{opacity:.7;cursor:default}
+</style><main><header><h1>CIA Part 1 – Knowledge Check</h1><p>اختبر قدرتك على التمييز بين 10 مصطلحات مهنية من خلال مواقف عملية.</p><small style="color:#d3e6e9">اختبار تعليمي قصير – ليس اختبارًا رسميًا من IIA</small></header>
 <p>اختر إجابة واحدة لكل سؤال. ستظهر التغذية الراجعة فورًا مع تفسير الإجابة ومراجعة بقية الاختيارات. لا توجد درجات أو نتيجة نهائية.</p>
 <article class="q" data-a="1">
     <div class="meta">السؤال 1 من 10</div><h2>طلبت لجنة المراجعة من فريق المراجعة الداخلية تقييم مدى كفاية وفعالية ضوابط منح الائتمان، وإصدار نتيجة موضوعية عن وضعها الحالي. ما نوع الخدمة؟</h2>
@@ -46,7 +52,77 @@ html,body,main,header,p,h1,h2,article,li,details{direction:rtl;text-align:right}
     <div class="opts"><button class="opt" data-i="0"><b>A.</b> الضوابط الوقائية – Preventive Controls</button><button class="opt" data-i="1"><b>B.</b> الضوابط الكاشفة – Detective Controls</button><button class="opt" data-i="2"><b>C.</b> الضوابط التصحيحية – Corrective Controls</button><button class="opt" data-i="3"><b>D.</b> الضوابط التوجيهية – Directive Controls</button></div>
     <div class="fb" hidden><strong class="result"></strong><p>التقرير يكشف المعاملات المكررة بعد تسجيلها وينبه المسؤولين لمراجعتها؛ لذلك فهو ضابط كاشف.</p><details><summary>مراجعة الاختيارات</summary><ul><li>Preventive Controls تمنع وقوع الحدث قبل حدوثه.</li><li>صحيح؛ التقرير يكتشف المعاملات المكررة بعد حدوثها.</li><li>Corrective Controls تعالج الآثار أو تصحح المشكلة.</li><li>Directive Controls توجه أو تشجع السلوك المرغوب.</li></ul></details>
     <button class="next">السؤال التالي</button></div></article>
-<div class="end"><h2>خطوتك التالية</h2><p>فهم المصطلحات والتمييز بينها في المواقف العملية يساعدك على بناء أساس مهني أقوى. تعرّف على <b>CIA Smart Reference</b> للتوسع في شرح المصطلحات وأمثلتها وأسئلتها التطبيقية.</p><small>يُضاف رابط صفحة المعلومات عند تجهيزها.</small></div></main>
+<div class="end" id="endSection">
+<div class="completion-notice" id="completionNotice" role="status" aria-live="polite" tabindex="-1" hidden>
+<h2>اكتمل الاختبار بنجاح</h2>
+<p>أكملت الإجابة عن الأسئلة العشرة. يمكنك الآن مراجعة الإجابات الصحيحة والتفسيرات لكل سؤال بالأعلى.</p>
+</div>
+<h2>خطوتك التالية</h2><p>فهم المصطلحات والتمييز بينها في المواقف العملية يساعدك على بناء أساس مهني أقوى. تعرّف على <b>CIA Smart Reference</b> للتوسع في شرح المصطلحات وأمثلتها وأسئلتها التطبيقية.</p><small>يُضاف رابط صفحة المعلومات عند تجهيزها.</small></div></main>
 <script>
-document.querySelectorAll('.q').forEach((q,idx,all)=>{let a=+q.dataset.a;let buttons=[...q.querySelectorAll('.opt')];buttons.forEach(b=>b.onclick=()=>{if(q.dataset.done)return;q.dataset.done='1';let choice=+b.dataset.i;buttons.forEach((x,j)=>{x.disabled=true;if(j===a)x.classList.add('good');if(j===choice&&choice!==a)x.classList.add('bad')});let fb=q.querySelector('.fb');fb.hidden=false;let ok=choice===a;let r=fb.querySelector('.result');r.textContent=ok?'✓ إجابة صحيحة':'✗ الإجابة غير صحيحة';r.className='result '+(ok?'yes':'no');let n=fb.querySelector('.next');n.textContent=idx===all.length-1?'إنهاء الاختبار':'السؤال التالي ←';n.onclick=()=>{if(idx<all.length-1)all[idx+1].scrollIntoView({behavior:'smooth'});else document.querySelector('.end').scrollIntoView({behavior:'smooth'})}})})
+(() => {
+  const questions = Array.from(document.querySelectorAll('.q'));
+  const endSection = document.getElementById('endSection');
+  const completionNotice = document.getElementById('completionNotice');
+
+  questions.forEach((question, index) => {
+    const correctIndex = Number(question.dataset.a);
+    const options = Array.from(question.querySelectorAll('.opt'));
+    const feedback = question.querySelector('.fb');
+    const result = feedback.querySelector('.result');
+    const nextButton = feedback.querySelector('.next');
+
+    nextButton.type = 'button';
+    nextButton.disabled = false;
+
+    options.forEach((option) => {
+      option.type = 'button';
+      option.addEventListener('click', () => {
+        if (question.dataset.done === '1') return;
+
+        question.dataset.done = '1';
+        const chosenIndex = Number(option.dataset.i);
+        const isCorrect = chosenIndex === correctIndex;
+
+        options.forEach((item, itemIndex) => {
+          item.disabled = true;
+          if (itemIndex === correctIndex) item.classList.add('good');
+          if (itemIndex === chosenIndex && !isCorrect) item.classList.add('bad');
+        });
+
+        result.textContent = isCorrect ? '✓ إجابة صحيحة' : '✗ الإجابة غير صحيحة';
+        result.className = 'result ' + (isCorrect ? 'yes' : 'no');
+        feedback.hidden = false;
+        nextButton.textContent = index === questions.length - 1
+          ? 'إنهاء الاختبار'
+          : 'السؤال التالي ←';
+        nextButton.disabled = false;
+      });
+    });
+
+    nextButton.addEventListener('click', () => {
+      if (question.dataset.done !== '1') return;
+
+      if (index < questions.length - 1) {
+        questions[index + 1].scrollIntoView({ behavior: 'smooth', block: 'start' });
+        return;
+      }
+
+      const unanswered = questions.filter((item) => item.dataset.done !== '1');
+      if (unanswered.length > 0) {
+        completionNotice.innerHTML = '<h2>لسه فيه أسئلة بدون إجابة</h2><p>ارجع للأسئلة غير المجابة، وبعدها اضغط إنهاء الاختبار مرة تانية.</p>';
+        completionNotice.hidden = false;
+        endSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        completionNotice.focus();
+        return;
+      }
+
+      completionNotice.innerHTML = '<h2>اكتمل الاختبار</h2><p>أكملت الإجابة عن الأسئلة العشرة. يمكنك الآن مراجعة الإجابات الصحيحة والتفسيرات لكل سؤال بالأعلى.</p>';
+      completionNotice.hidden = false;
+      nextButton.textContent = 'تم إنهاء الاختبار';
+      nextButton.disabled = true;
+      endSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      completionNotice.focus();
+    });
+  });
+})();
 </script></main></html>
